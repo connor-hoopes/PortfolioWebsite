@@ -5,9 +5,10 @@ body{
   margin:auto;
 }
 header {
-    background-color: #333;
     color: #fff;
-    padding: 1rem;
+    /* padding: 1rem; */
+    position: fixed;
+    width:100%;
 }
 
 nav ul {
@@ -29,4 +30,16 @@ nav ul li a {
   background-color: whitesmoke;
   padding: 10% 5%;
 }
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
 
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
