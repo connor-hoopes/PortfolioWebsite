@@ -7,7 +7,7 @@ body{
 header {
     color: #fff;
     /* padding: 1rem; */
-    position: fixed;
+    /* position: fixed; */
     width:100%;
 }
 
@@ -26,9 +26,12 @@ nav ul li a {
     text-decoration:wavy;
 }
 .site-content{
-  height: 500px;
+  height: 1000px;
   background-color: whitesmoke;
-  padding: 10% 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 75px;
+  padding-bottom: 500px;
 }
 /* The progress container (grey background) */
 .progress-container {
