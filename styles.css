@@ -46,3 +46,16 @@ nav ul li a {
   background: #04AA6D;
   width: 0%;
 }
+.project-card{
+  border:2px;
+  max-width: 75px;
+  min-width: 20%;
+  justify-content: center;
+  padding:10%;
+}
+.cards-container{
+  border:2px black;
+  width:100%;
+  padding:10%
+
+}
