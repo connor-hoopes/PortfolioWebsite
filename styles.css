@@ -28,10 +28,10 @@ nav ul li a {
 .site-content{
   height: 1000px;
   background-color: whitesmoke;
-  padding-left: 10%;
+  /* padding-left: 10%;
   padding-right: 10%;
   padding-top: 75px;
-  padding-bottom: 500px;
+  padding-bottom: 500px; */
 }
 /* The progress container (grey background) */
 .progress-container {
@@ -48,12 +48,21 @@ nav ul li a {
 }
 .project-card{
   border:2px solid black;
-  width: 75px;
+  max-width:4rem;
+  min-width: 20%;
   height: 120px;
   justify-content: center;
-  padding:1em;
+  /* padding-top:4em; */
+  margin:1rem;
 }
 .cards-container{
-  width:100%;
-
+  width:90%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* padding: 3rem 1rem; */
+}
+.hero-image{
+  width: 20rem;
+  justify-content: center;
+  border-radius: 50%;
 }
