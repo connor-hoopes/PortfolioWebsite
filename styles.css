@@ -26,8 +26,10 @@ nav ul li a {
     text-decoration:wavy;
 }
 .site-content{
-  height: 1000px;
+  height: auto;
+  min-height: 500px;
   background-color: whitesmoke;
+  padding: 10%;
   /* padding-left: 10%;
   padding-right: 10%;
   padding-top: 75px;
@@ -48,9 +50,9 @@ nav ul li a {
 }
 .project-card{
   border:2px solid black;
-  max-width:4rem;
-  min-width: 20%;
-  height: 120px;
+  /* max-width:4rem; */
+  min-width: 10rem;
+  min-height: 15rem;
   justify-content: center;
   /* padding-top:4em; */
   margin:1rem;
@@ -65,4 +67,22 @@ nav ul li a {
   width: 20rem;
   justify-content: center;
   border-radius: 50%;
+}
+#skills img{
+  width: 10rem;
+  height:auto;
+  border-radius:50%;
+  background-color: white;
+  padding:5%;
+  margin:5%;
+}
+#skills{
+  /* padding:10%; */
+}
+.img-text{
+  width:20rem;
+  display:flex;
+}
+.img-text p{
+  padding-top:10%;
 }
